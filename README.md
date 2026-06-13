@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Market Trends Intelligence Pipeline
 
 A data pipeline that collects, stores, and analyzes Google Trends data for market intelligence.
@@ -123,3 +124,6 @@ market_trends/
 ## License
 
 MIT
+=======
+# Market-trend-Inteligence-Pipeline
+>>>>>>> 4be7376cb1e385010e2f9224b86c6ef6e48d01fe
