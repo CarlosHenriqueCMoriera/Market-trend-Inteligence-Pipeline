@@ -1,0 +1,7 @@
+pytest
+requests
+pytrends
+psycopg2-binary
+python-dotenv
+loguru
+dbt-postgres

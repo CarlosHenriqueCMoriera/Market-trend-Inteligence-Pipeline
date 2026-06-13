@@ -1,0 +1,12 @@
+name: market_trends
+version: "1.0.0"
+config-paths: ["分析"]
+macro-paths: [分析/macros]
+target: postgres
+postgres:
+  host: localhost
+  port: "5432"
+  user: postgres
+  dbname: market_trends
+  schema: dbt_trends
+  threads: 1

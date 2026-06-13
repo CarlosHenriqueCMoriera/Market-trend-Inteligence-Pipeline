@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: raw
+    database: market_trends
+    schema: public
+    tables:
+      - name: raw_trends
+        description: "Raw Google Trends data collected"
+        columns:
+          - name: id
+            description: "Primary key"
+          - name: keyword
+            description: "Search keyword"
+          - name: value
+            description: "Trend index value"
+          - name: date
+            description: "Date of data point"
+          - name: region
+            description: "Geographic region"
+          - name: collected_at
+            description: "Timestamp of collection"
